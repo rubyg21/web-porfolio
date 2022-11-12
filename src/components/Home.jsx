@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { NavLink } from "react-router-dom";
+import foto from '../assets/foto.png'
 
 const Home = () => {
   return (
@@ -9,15 +10,15 @@ const Home = () => {
 
 <div className='Iam'>
   <h1>HI I'm <br/> Rubens Galarraga <br/> Web Developer </h1>
-  <p className='subtitulo'>Frontend Developer / Javascript / React</p>
+  <p className='subtitulo'>Frontend Developer / Javascript / React / Node js </p>
  
     <NavLink to="/contact" className='contactme'> Contact me </NavLink>
   
   
 </div>
 
-<div className='Iam'>
-  <h1>HI I'm <br/> Rubens Galarraga <br/> Web Developer </h1>
+<div >
+ <img className='fotoperfil' src={foto} alt=''/>
 
 </div>
 

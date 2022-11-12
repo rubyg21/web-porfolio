@@ -32,7 +32,21 @@
     
 }
 
+.fotoperfil{
+    width: 275px;
+    border-radius: 50%;
+    border: 4px  #ffffff solid;
+    justify-content: center;
+    /* filter: grayscale(1); */
+}
 
+.fotoperfil:hover{
+    width: 275px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 4px #5f5f5f solid;
+
+}
 
 @media (max-width: 560px){
     .Home{
