@@ -1,13 +1,48 @@
 .contact{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 230px);
+    grid-template-columns: 100%;
     gap: 40px;
     padding: 40px;
     justify-content: center;
 }
+.icon{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    color: gray;
+}
+
+.linkedin:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.git:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.cel:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.mail:hover{
+    color: white;
+    cursor: pointer;
+}
+
 
 @media (max-width: 560px){
     .contact{
         grid-template-columns: 100%;
     }
+    .icon{
+        display: flex;
+        gap: 40px;
+        padding: 40px;
+        justify-content: center;
+    }
+    
 }

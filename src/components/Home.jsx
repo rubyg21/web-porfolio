@@ -10,7 +10,7 @@ const Home = () => {
 
 <div className='Iam'>
   <h1>HI I'm <br/> Rubens Galarraga <br/> Web Developer </h1>
-  <p className='subtitulo'>Frontend Developer / Javascript / React / Node js </p>
+  <p className='subtitulo'>Frontend Developer / Javascript / Vue js / React/ Node js </p>
  
     <NavLink to="/contact" className='contactme'> Contact me </NavLink>
   

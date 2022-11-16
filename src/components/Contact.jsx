@@ -1,22 +1,31 @@
-import React from 'react'
-import './Contact.css'
+import React from "react";
+import "./Contact.css";
+
+import { AiFillLinkedin } from "react-icons/Ai";
+import { AiFillGithub } from "react-icons/Ai";
+import { MdPhonelinkRing } from "react-icons/Md";
+import { GrMail } from "react-icons/Gr";
 
 const Contact = () => {
   return (
-    <div className='contact'>
-      <div>Linkedin</div>
-      <div>GitHub</div>
-      <div>Cel</div>
-      <div>Mail</div>
-      <div>Mapa</div>
-
-
+<>
+<div className="contact">
+      <div className="icon">
+        
+        <div className="linkedin"><AiFillLinkedin size={45} /></div>
+        
+        <div className="git"> <AiFillGithub size={45} /></div>
+        
+         <div className="cel"> <MdPhonelinkRing size={45} /> </div>
+        <div className="mail"> <GrMail size={45} /></div>
+      </div>
     </div>
-  )
-}
 
-export default Contact
+</>
+  );
+};
 
+export default Contact;
 
 // .moviesGrid{
 //   display: grid;
