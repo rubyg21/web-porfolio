@@ -1,0 +1,80 @@
+.barraHtml {
+  height: 20px;
+  width: 570px;
+  background-color: rgb(233, 85, 0);
+  border-radius: 2px;
+}
+
+.barraCss {
+  height: 20px;
+  width: 540px;
+  background-color: rgb(0, 68, 255);
+  border-radius: 2px;
+}
+
+.barraJs {
+  height: 20px;
+  width: 540px;
+  background-color: rgb(233, 210, 2);
+  border-radius: 2px;
+}
+
+.barraVue {
+  height: 20px;
+  width: 480px;
+  background-color: rgb(35, 214, 50);
+  border-radius: 2px;
+}
+.barraReact {
+  height: 20px;
+  width: 540px;
+  background-color: rgb(9, 140, 248);
+  border-radius: 2px;
+}
+
+.barraNode {
+  height: 20px;
+  width: 480px;
+  background-color: green;
+  border-radius: 2px;
+}
+
+.barraExpres {
+  height: 20px;
+  width: 480px;
+  background-color: rgb(131, 131, 131);
+  border-radius: 2px;
+}
+.barraMsql {
+  height: 20px;
+  width: 420px;
+  background-color: rgb(67, 89, 160);
+  border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+  .barraHtml {
+    width: 90%;
+  }
+  .barraCss {
+    width: 90%;
+  }
+  .barraJs {
+    width: 90%;
+  }
+  .barraVue {
+    width: 80%;
+  }
+  .barraReact {
+    width: 90%;
+  }
+  .barraNode {
+    width: 90%;
+  }
+  .barraExpres {
+    width: 90%;
+  }
+  .barraMsql {
+    width: 70%;
+  }
+}
