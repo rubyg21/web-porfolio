@@ -38,7 +38,7 @@
 }
 
 .css:hover{
-  color: rgb(4, 16, 196);
+  color: rgb(70, 82, 248);
   cursor: pointer;
  
  }
@@ -102,6 +102,30 @@
  
  }
 
+ .git{
+  justify-self: center;
+  align-items: center;
+  display: flex;
+  /* color: white; */
+}
+
+.git:hover{
+  color: rgb(0, 93, 199);
+  cursor: pointer;
+ 
+ }
+
+ .fire{
+  justify-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.fire:hover{
+  color: yellow;
+  cursor: pointer;
+ 
+ }
 
 
  

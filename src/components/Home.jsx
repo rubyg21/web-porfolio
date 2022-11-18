@@ -13,6 +13,7 @@ const Home = () => {
   <p className='subtitulo'>Frontend Developer / Javascript / Vue js / React/ Node js </p>
  
     <NavLink to="/contact" className='contactme'> Contact me </NavLink>
+    <NavLink to="/contact" className='cv'> Download CV </NavLink>
   
   
 </div>

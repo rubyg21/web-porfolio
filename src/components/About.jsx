@@ -7,6 +7,9 @@ import { RiVuejsFill } from "react-icons/Ri";
 import { GrReactjs } from "react-icons/Gr";
 import { IoLogoNodejs } from "react-icons/Io";
 import { SiMysql } from "react-icons/Si";
+import { DiGithubBadge } from "react-icons/Di";
+import { SiFirebase } from "react-icons/Si";
+
 
 const About = () => {
   return (
@@ -58,10 +61,17 @@ const About = () => {
             <p>Node</p>
           </div>
           <div className="mysql">
-
-
-
             <SiMysql size="80px" />
+            
+          </div>
+          <div className="git">
+            <DiGithubBadge size="70px" />
+            <p>GitHub</p>
+            
+          </div>
+          <div className="fire">
+            <SiFirebase size="70px" />
+            <p>FireBase</p>
             
           </div>
         </div>
