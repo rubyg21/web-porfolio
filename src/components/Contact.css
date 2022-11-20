@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: 100%;
     gap: 40px;
-    padding: 40px;
+    padding: 1px;
     justify-content: center;
 }
 .icon{
     display: flex;
     gap: 40px;
-    padding: 40px;
+    padding: 1px;
     justify-content: center;
     color: gray;
 }

@@ -1,0 +1,48 @@
+.formulario{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+       padding: 30px;
+    justify-content: center;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+
+	
+}
+
+.name{
+  
+    background-color: black;
+    padding: 8px 15px;
+    color: white;
+    margin: 10px;
+    border: 1px black solid;
+    border-bottom: 1px #ffffff solid;
+    display: block;
+    
+}
+
+.name:focus{
+    border-bottom: 1px #15ff00 solid;
+    outline: none;
+}
+.send {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 15px;
+    cursor: pointer;   
+    width: 110px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    float: right;
+  }
+  .send:hover {
+    
+    border: 1px solid #15ff00;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: #15ff00;
+  }

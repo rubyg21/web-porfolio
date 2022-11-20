@@ -5,23 +5,34 @@ import { AiFillLinkedin } from "react-icons/Ai";
 import { AiFillGithub } from "react-icons/Ai";
 import { MdPhonelinkRing } from "react-icons/Md";
 import { GrMail } from "react-icons/Gr";
+import FormEdit from "./FormEdit.jsx";
 
 const Contact = () => {
   return (
-<>
-<div className="contact">
-      <div className="icon">
-        
-        <div className="linkedin"><AiFillLinkedin size={45} /></div>
-        
-        <div className="git"> <AiFillGithub size={45} /></div>
-        
-         <div className="cel"> <MdPhonelinkRing size={45} /> </div>
-        <div className="mail"> <GrMail size={45} /></div>
-      </div>
-    </div>
+    <>
+      <div> <FormEdit /> </div>
+      <div className="contact">
+        <div className="icon">
+          <div className="linkedin">
+            <AiFillLinkedin size={45} />
+          </div>
 
-</>
+          <div className="git">
+            {" "}
+            <AiFillGithub size={45} />
+          </div>
+
+          <div className="cel">
+            {" "}
+            <MdPhonelinkRing size={45} />{" "}
+          </div>
+          <div className="mail">
+            {" "}
+            <GrMail size={45} />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
