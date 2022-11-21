@@ -10,6 +10,7 @@ import FormEdit from "./FormEdit.jsx";
 const Contact = () => {
   return (
     <>
+  
       <div> <FormEdit /> </div>
       <div className="contact">
         <div className="icon">

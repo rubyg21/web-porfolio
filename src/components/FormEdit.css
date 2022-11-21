@@ -19,12 +19,14 @@
     border: 1px black solid;
     border-bottom: 1px #ffffff solid;
     display: block;
-    
+    resize:none;
 }
 
 .name:focus{
     border-bottom: 1px #15ff00 solid;
     outline: none;
+    resize:none;
+    transition: .5s;
 }
 .send {
     text-decoration: none;
@@ -45,4 +47,5 @@
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
     color: #15ff00;
+    transition: .5s;
   }

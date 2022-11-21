@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 530px);
   gap: 40px;
-  padding: 40px;
+  padding: 20px;
+  align-items: center;
   justify-content: center;
 }
 .subtitulo {
@@ -11,6 +12,7 @@
 
 .Iam {
   font-size: 30px;
+  
 }
 
 .contactme {
@@ -31,6 +33,7 @@
   border-radius: 5px;
   background-color: rgb(0, 0, 0);
   color: #15ff00;
+  transition: .5s;
 }
 
 .cv {
@@ -51,6 +54,7 @@
   border-radius: 5px;
   background-color: rgb(0, 0, 0);
   color: #15ff00;
+  transition: .5s;
 }
 
 .fotoperfil {
@@ -69,6 +73,7 @@
   justify-content: center;
   /* border: 4px #d40303 solid; */
   opacity: 0.9;
+  transition: .5s;
 }
 
 @media (max-width: 560px) {

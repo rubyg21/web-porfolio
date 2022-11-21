@@ -16,21 +16,25 @@
 .linkedin:hover{
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 
 .git:hover{
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 
 .cel:hover{
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 
 .mail:hover{
     color: white;
     cursor: pointer;
+    transition: .5s;
 }
 
 
