@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Formik, Field, Form } from "formik";
 import "./FormEdit.css";
 
 
 const FormEdit = () => {
+  const [noEnviado, setEnviado] = useState('')
+
+const handleClick = () => {
+
+  setEnviado(<strong>Tu mensaje ha sido enviado!</strong>)
+  
+}
+
+
   return (
     <div className="formulario">
         <Formik
@@ -13,9 +22,11 @@ const FormEdit = () => {
           email: "",
           textarea: "",
         }}
-        onSubmit={async (values) => {
-          await new Promise((r) => setTimeout(r, 500));
+        onSubmit={ (values, {resetForm}) =>{
           alert(JSON.stringify(values, null, 2));
+          // alert('Tu mensaje ha sido enviado!');
+          resetForm({ values: ''})
+        
         }}
       >
         <Form className="form">
@@ -46,9 +57,14 @@ const FormEdit = () => {
             ></Field>
           </div>
 
-         <button className="send" type="submit">Send</button>
+         <button className="send" type="submit" onClick={handleClick} >Send</button>
+      <div> <p> {noEnviado} </p></div>
         </Form>
+        
       </Formik>
+
+     
+     
     </div>
   );
 };

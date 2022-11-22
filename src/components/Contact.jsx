@@ -12,6 +12,8 @@ const Contact = () => {
     <>
   
       <div> <FormEdit /> </div>
+
+      
       <div className="contact">
         <div className="icon">
           <div className="linkedin">

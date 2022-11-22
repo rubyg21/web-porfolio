@@ -21,9 +21,8 @@ const Proyects = () => {
               <div className="card__content">
                 <h1 className="card__header">E-comerce</h1>
                 <p className="card__text">
-                  Look up at the night sky, and find yourself{" "}
-                  <strong>immersed</strong> in the amazing mountain range of
-                  Aspen.
+                  Desarrollado con React + Vite, se utilizo CSS para el estilo, un 
+                  sitio responsvive, para el deployment se realizo con FireBase.
                 </p>
               <a href="https://ecomerce-d548b.web.app/" target="blank_" >
               <button className="card__btn">
@@ -50,9 +49,8 @@ const Proyects = () => {
               <div className="card__content">
                 <h1 className="card__header">App Pokemon</h1>
                 <p className="card__text">
-                  Look up at the night sky, and find yourself{" "}
-                  <strong>immersed</strong> in the amazing mountain range of
-                  Aspen.
+                  Desarrolado con Vue js + Vite, consumiendo una api, tambien
+                  se utilizo CSS para el estilo, el deployment se realizado en Netlify
                 </p>
                 <a href="https://vue3-pokemons.netlify.app/" target="blank_" > <button className="card__btn">
                   Explore <span>&rarr;</span>
@@ -75,9 +73,8 @@ const Proyects = () => {
               <div className="card__content">
                 <h1 className="card__header">App Movies </h1>
                 <p className="card__text">
-                  Look up at the night sky, and find yourself{" "}
-                  <strong>immersed</strong> in the amazing mountain range of
-                  Aspen.
+                  Desarrollado con React + CreateReactApp,
+                  consumiendo una api de peliculas, realizado el deployment en Netlify.
                 </p>
           <a href="https://movie-react2022.netlify.app/" target="blank_">   <button className="card__btn">
               Explore   <span>&rarr;</span>
