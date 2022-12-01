@@ -11,9 +11,7 @@ const handleClick = () => {
   setEnviado(<strong>Tu mensaje ha sido enviado!</strong>)
   
 }
-
-
-  return (
+return (
     <div className="formulario">
         <Formik
         initialValues={{
